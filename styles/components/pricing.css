@@ -70,7 +70,29 @@
 /* @media (min-width: 768px) {} */
 
 /* lg */
-/* @media (min-width: 1024px) {} */
+@media (min-width: 1024px) {
+  .pricing__grid-container {
+    display: grid;
+    grid-template-areas:
+      "css jav"
+      "rea nex";
+  }
+  .pricing__box--css {
+    grid-area: css;
+  }
+
+  .pricing__box--jav {
+    grid-area: jav;
+  }
+
+  .pricing__box-rea {
+    grid-area: rea;
+  }
+
+  .pricing__box-nex {
+    grid-area: nex;
+  }
+}
 
 /* xl */
 /* @media (min-width: 1280px) {} */
