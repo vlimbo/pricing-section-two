@@ -41,3 +41,39 @@
 .pricing__btn {
   font-size: 0.75rem;
 }
+
+/* media-queries */
+/* xs */
+@media (min-width: 475px) {
+  .pricing__title {
+    font-size: 0.875rem;
+  }
+
+  .pricing__box__title {
+    font-size: 1.25rem;
+  }
+
+  .pricing__description1,
+  .pricing__description2 {
+    font-size: 0.875rem;
+  }
+
+  .pricing__btn {
+    font-size: 0.875rem;
+  }
+}
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+/* @media (min-width: 1024px) {} */
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
