@@ -24,8 +24,16 @@
   padding-inline: 0.5rem;
 }
 
-/* pre-determined media-queries */
+.btn {
+  background-color: white;
+  color: black;
+  font-weight: 500;
+  border-radius: 6px;
+  padding: 0.5em 1em;
+  font-size: 0.65rem;
+}
 
+/* pre-determined media-queries */
 /* xs */
 @media (min-width: 475px) {
   .container {
