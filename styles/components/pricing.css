@@ -74,8 +74,12 @@
   .pricing__grid-container {
     display: grid;
     grid-template-areas:
-      "css jav"
-      "rea nex";
+      "css css css jav"
+      "rea rea nex nex";
+    gap: 1rem;
+  }
+  .pricing__box {
+    margin-top: 0;
   }
   .pricing__box--css {
     grid-area: css;
@@ -85,11 +89,11 @@
     grid-area: jav;
   }
 
-  .pricing__box-rea {
+  .pricing__box--rea {
     grid-area: rea;
   }
 
-  .pricing__box-nex {
+  .pricing__box--nex {
     grid-area: nex;
   }
 }
