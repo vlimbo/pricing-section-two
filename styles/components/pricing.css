@@ -1,4 +1,17 @@
 .pricing__title {
   font-size: 0.75rem;
   margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.pricing__box {
+  background-color: black;
+  color: white;
+  padding: 1.5rem;
+  border-radius: 6px;
+  margin-top: 1rem;
+}
+
+.pricing__box--0margin {
+  margin: 0;
 }
