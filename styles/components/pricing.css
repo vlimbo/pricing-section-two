@@ -108,7 +108,24 @@
 }
 
 /* xl */
-/* @media (min-width: 1280px) {} */
+@media (min-width: 1280px) {
+  .pricing__title {
+    font-size: 1rem;
+  }
+
+  .pricing__box__title {
+    font-size: 1.5rem;
+  }
+
+  .pricing__description1,
+  .pricing__description2 {
+    font-size: 1rem;
+  }
+
+  .pricing__btn {
+    font-size: 1rem;
+  }
+}
 
 /* 2xl */
 /* @media (min-width: 1536px) {} */
